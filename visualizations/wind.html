@@ -20,12 +20,12 @@
     <!-- Start of navbar -->
     <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand btn btn-success" href="C:\Users\erico\OneDrive\Desktop\GTech\Web-Design-Challenge\index.html">Latitude</a>
+        <a class="navbar-brand btn btn-primary" href="C:\Users\erico\OneDrive\Desktop\GTech\Web-Design-Challenge\index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-          <nav class="nav">
+          <nav class="nav dropdown-center">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Plots</a>
             <ul class="dropdown-menu">
@@ -43,17 +43,17 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-    <div class="container-lg">
-      <div class="row">
-        <div class="col-8">          
-          <div class="clearfix">
+    <div class="container text-left">
+      <div class="row row-cols-md-2">
+        <div class="clearfix">          
+          <div class="col-auto">
             <h2>
               <strong>
                 Wind Speed
               </strong>                        
             </h2>
             <hr>            
-            <img src="C:\Users\erico\OneDrive\Desktop\GTech\Web-Design-Challenge\assets\images\Fig4.png" alt="Wind Map">          
+            <img src="C:\Users\erico\OneDrive\Desktop\GTech\Web-Design-Challenge\assets\images\Fig4.png" class="img-fluid" alt="Wind Map">          
             <p>
               Similar to cloudiness, there is little correlation between wind speed and latitude. It is rare to have wind speeds greater than 20mph but the closer to the norther hemisphere you go, the higher the wind speeds you encounter from an outlier perspective.
             </p>           
@@ -62,14 +62,14 @@
           
           <!-- Start of Visualizations imageNav Area -->
           
-          <div class="col-3">
+          <div class="col-12 col-md-3">
             <h2>
               <strong>
                 Visualizations
               </strong>
             </h2>
             <hr>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="row row-cols-3 row-cols-md-2 g-4">
               <div class="col">
                 <div class="card">
                   <figure class="figure">
